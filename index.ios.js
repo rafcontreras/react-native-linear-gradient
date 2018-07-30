@@ -57,8 +57,8 @@ export default class LinearGradient extends Component {
   gradientRef: any;
 
   static defaultProps = {
-    start: { x: 0.5, y: 0.0 },
-    end: { x: 0.5, y: 1.0 },
+    startPoint: { x: 0.5, y: 0.0 },
+    endPoint: { x: 0.5, y: 1.0 },
   };
 
   setNativeProps(props: PropsType) {
